@@ -26,6 +26,11 @@
 .essais {
   display : flex;
   justify-content: center;
+  background-color : black;
+  color : #fff;
+  font-family : arial;
+  font-size: 22px;
+  padding : 10px;
 }
 
 .divLettres {

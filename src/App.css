@@ -26,10 +26,9 @@
 .essais {
   display : flex;
   justify-content: center;
-  background-color : black;
+  background-color : #7c7979;
   color : #fff;
   font-family : arial;
-  font-size: 22px;
   padding : 10px;
 }
 
@@ -37,6 +36,18 @@
   display : flex;
   justify-content: space-around;
   flex-wrap : wrap;
-  width : 320px;
+  width : 380px;
   margin : auto;
+}
+
+.divLettres button {
+  border : 2px solid black;
+  padding : 1em;
+  margin : 0.2em;
+  min-width: 39px;
+}
+
+.divLettres button:disabled {
+  background-color: black;
+  color : #fff;
 }
